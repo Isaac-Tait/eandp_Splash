@@ -21,10 +21,10 @@ export default function Home() {
           width={200}
           height={200}
           alt='Picture of the author'
-          style={{borderRadius: '50%'}}
+          style={{ borderRadius: '50%' }}
         />
         <Link
-          href='https://sticky-fingers.vercel.app/'
+          href='https://docs.stickyfingers1415.cc/'
           target='_blank'
           rel='noopener noreferrer'
           prefetch={true}
