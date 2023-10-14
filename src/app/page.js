@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 import Footer from './components/Footer';
@@ -15,6 +16,13 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
+        <Image
+          src='https://github.com/Isaac-Tait.png'
+          width={200}
+          height={200}
+          alt='Picture of the author'
+          style={{borderRadius: '50%'}}
+        />
         <Link
           href='https://sticky-fingers.vercel.app/'
           target='_blank'
