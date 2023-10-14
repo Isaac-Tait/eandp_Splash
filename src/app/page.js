@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import styles from './page.module.css';
 
+import Footer from './components/Footer';
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -13,18 +15,36 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Link href='https://sticky-fingers.vercel.app/' className={styles.button}>
+        <Link
+          href='https://sticky-fingers.vercel.app/'
+          target='_blank'
+          rel='noopener noreferrer'
+          prefetch={true}
+          className={styles.button}
+        >
           Blog and Essays
         </Link>
-        <Link href='https://wormwoodsaga.com' className={styles.button}>
+        <Link
+          href='https://wormwoodsaga.com'
+          target='_blank'
+          rel='noopener noreferrer'
+          prefetch={true}
+          className={styles.button}
+        >
           Novel
         </Link>
-        <Link href='https://iloveto.fish' className={styles.button}>
-            Personal Hobby Site
-          </Link>
+        <Link
+          href='https://iloveto.fish'
+          target='_blank'
+          rel='noopener noreferrer'
+          prefetch={true}
+          className={styles.button}
+        >
+          Fishing{' '}
+        </Link>
       </div>
 
-      <div className={styles.grid}>
+      {/* <div className={styles.grid}>
         <a
           href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
           className={styles.card}
@@ -80,7 +100,8 @@ export default function Home() {
             Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
+      <Footer />
     </main>
   );
 }
