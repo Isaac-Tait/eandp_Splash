@@ -24,6 +24,15 @@ export default function Home() {
           style={{ borderRadius: '50%' }}
         />
         <Link
+          href='https://secure.everyaction.com/fQnpE4ChOU6m73Eh9FXXww2'
+          target='_blank'
+          rel='noopener noreferrer'
+          prefetch={true}
+          className={styles.button}
+        >
+          Make yourself heard
+        </Link>
+        <Link
           href='https://docs.stickyfingers1415.cc/'
           target='_blank'
           rel='noopener noreferrer'
