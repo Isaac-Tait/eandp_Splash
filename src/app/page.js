@@ -57,7 +57,7 @@ export default function Home() {
           prefetch={true}
           className={styles.button}
         >
-          Fishing{' '}
+          Hobbies{' '}
         </Link>
       </div>
 
