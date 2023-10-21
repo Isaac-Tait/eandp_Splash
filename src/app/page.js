@@ -64,7 +64,7 @@ export default function Home() {
           }}
         >
           <Link
-            href='https://iloveto.fish'
+            href='https://www.tiktok.com/@exploring_and_pondering'
             target='_blank'
             rel='noopener noreferrer'
             prefetch={true}
@@ -74,7 +74,7 @@ export default function Home() {
             TikTok{' '}
           </Link>
           <Link
-            href='https://iloveto.fish'
+            href='https://www.instagram.com/exploring_and_pondering/'
             target='_blank'
             rel='noopener noreferrer'
             prefetch={true}
@@ -84,7 +84,7 @@ export default function Home() {
             Instagram{' '}
           </Link>
           <Link
-            href='https://iloveto.fish'
+            href='https://www.threads.net/@exploring_and_pondering'
             target='_blank'
             rel='noopener noreferrer'
             prefetch={true}
