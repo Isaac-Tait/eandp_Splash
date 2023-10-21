@@ -9,9 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          <code className={styles.code}>
-            Welcome to Sticky Fingers!
-          </code>
+          <code className={styles.code}>Exploring and Pondering</code>
         </p>
       </div>
 
@@ -30,10 +28,10 @@ export default function Home() {
           prefetch={true}
           className={styles.button}
         >
-          Make yourself heard
+          Tell the ATF to make America safe again
         </Link>
         <Link
-          href='https://docs.stickyfingers1415.cc/'
+          href='https://docs.eandp.cc/'
           target='_blank'
           rel='noopener noreferrer'
           prefetch={true}
@@ -59,6 +57,42 @@ export default function Home() {
         >
           Hobbies{' '}
         </Link>
+        <div
+          style={{
+            display: 'flexRow',
+            marginTop: '2rem',
+          }}
+        >
+          <Link
+            href='https://iloveto.fish'
+            target='_blank'
+            rel='noopener noreferrer'
+            prefetch={true}
+            className={styles.button}
+            style={{ marginRight: '2rem' }}
+          >
+            TikTok{' '}
+          </Link>
+          <Link
+            href='https://iloveto.fish'
+            target='_blank'
+            rel='noopener noreferrer'
+            prefetch={true}
+            className={styles.button}
+            style={{ marginRight: '2rem' }}
+          >
+            Instagram{' '}
+          </Link>
+          <Link
+            href='https://iloveto.fish'
+            target='_blank'
+            rel='noopener noreferrer'
+            prefetch={true}
+            className={styles.button}
+          >
+            Threads{' '}
+          </Link>
+        </div>
       </div>
 
       {/* <div className={styles.grid}>
