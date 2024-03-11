@@ -22,15 +22,6 @@ export default function Home() {
           style={{ borderRadius: '50%' }}
         />
         <Link
-          href='https://secure.everyaction.com/fQnpE4ChOU6m73Eh9FXXww2'
-          target='_blank'
-          rel='noopener noreferrer'
-          prefetch={true}
-          className={styles.button}
-        >
-          Tell the ATF to make America safe again
-        </Link>
-        <Link
           href='https://docs.eandp.cc/'
           target='_blank'
           rel='noopener noreferrer'
