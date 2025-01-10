@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div style={{ fontSize: '0.75rem' }}>
-      ©2023-{new Date().getFullYear()}, Built with ♥ by{' '}
+      ©2023-{new Date().getFullYear()}, Built with &#127987; by{' '}
       <Link
         href='https://mountaintopcoding.dev'
         target='_blank'
