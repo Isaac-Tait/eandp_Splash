@@ -55,33 +55,14 @@ export default function Home() {
           }}
         >
           <Link
-            href='https://www.tiktok.com/@exploring_and_pondering'
+            href='https://bsky.app/profile/enlightenednomad.bsky.social'
             target='_blank'
             rel='noopener noreferrer'
             prefetch={true}
             className={styles.button}
             style={{ marginRight: '2rem' }}
           >
-            TikTok{' '}
-          </Link>
-          <Link
-            href='https://www.instagram.com/exploring_and_pondering/'
-            target='_blank'
-            rel='noopener noreferrer'
-            prefetch={true}
-            className={styles.button}
-            style={{ marginRight: '2rem' }}
-          >
-            Instagram{' '}
-          </Link>
-          <Link
-            href='https://www.threads.net/@exploring_and_pondering'
-            target='_blank'
-            rel='noopener noreferrer'
-            prefetch={true}
-            className={styles.button}
-          >
-            Threads{' '}
+            Blue SKy{' '}
           </Link>
         </div>
       </div>
