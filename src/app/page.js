@@ -55,6 +55,16 @@ export default function Home() {
           }}
         >
           <Link
+            href='https://bsky.app/profile/enlightenednomad.bsky.social'
+            target='_blank'
+            rel='noopener noreferrer'
+            prefetch={true}
+            className={styles.button}
+            style={{ marginRight: '2rem' }}
+          >
+            Blue Sky{' '}
+          </Link>
+          <Link
             href='https://www.reddit.com/r/nosurf/comments/1hzkl7u/leaving_meta_can_it_realistically_be_done/'
             target='_blank'
             rel='noopener noreferrer'
