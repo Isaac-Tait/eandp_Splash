@@ -54,7 +54,6 @@ export default function Home() {
           rel='noopener noreferrer'
           prefetch={true}
           className={styles.button}
-          style={{ marginRight: '2rem' }}
         >
           Blue Sky{' '}
         </Link>
