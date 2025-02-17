@@ -57,6 +57,15 @@ export default function Home() {
         >
           Blue Sky{' '}
         </Link>
+        <Link
+          href='https://substack.com/@biit'
+          target='_blank'
+          rel='noopener noreferrer'
+          prefetch={true}
+          className={styles.button}
+        >
+          SubStack{' '}
+        </Link>
       </div>
       <Footer />
     </main>
